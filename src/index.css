@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #16222e;
+  --color-paper: #f4f6f3;
+  --color-pine: #0f766e;
+  --color-saffron: #e8a317;
+}
+
+:root {
+  color: #16222e;
+  background-color: #f4f6f3;
+  font-family: var(--font-sans);
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background: #f4f6f3;
+}
+
+.delivery-page {
+  background-color: #f4f5fc;
+  background-image:
+    radial-gradient(ellipse at 8% 8%, rgb(236 72 153 / 16%), transparent 34%),
+    radial-gradient(ellipse at 94% 16%, rgb(59 130 246 / 17%), transparent 30%),
+    radial-gradient(ellipse at 52% 100%, rgb(129 140 248 / 14%), transparent 42%),
+    radial-gradient(rgb(22 34 46 / 4%) 0.7px, transparent 0.7px),
+    linear-gradient(135deg, #fff7fb 0%, #f1f5ff 52%, #f7f3ff 100%);
+  background-size: auto, auto, auto, 18px 18px, auto;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  border-radius: 12px;
+}
