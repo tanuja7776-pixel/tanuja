@@ -3,10 +3,10 @@ import { MapContainer, TileLayer, Marker, Polyline, useMap, useMapEvents } from 
 import "leaflet/dist/leaflet.css";
 import { supabase } from "./supabaseClient";
 import { useMyLocation } from "./useMyLocation";
-import { useRoute } from "./useRoute";
+import { useRoute } from "./Useroute";
 import { nextManeuver, formatDistance, formatDuration } from "./Routing";
 import { distanceMeters } from "./Geo";
-import { pinIcon, makeDriverIcon } from "./mapIcons";
+import { pinIcon, makeDriverIcon } from "./MapIcons";
 import HouseOutline from "./HouseOutline";
 
 const SEND_EVERY_MS = 5000;

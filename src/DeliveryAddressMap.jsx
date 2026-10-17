@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup, Circle, CircleMarker, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import { pinIcon } from "./mapIcons";
+import { pinIcon } from "./MapIcons.JS";
 import { useMyLocation } from "./useMyLocation";
 import HouseOutline from "./HouseOutline";
 
